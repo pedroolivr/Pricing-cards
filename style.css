@@ -1,0 +1,1076 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Poppins&family=Roboto&family=Roboto+Slab&family=Secular+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@keyframes pan {
+    100% { background-position: 15% 50%;}
+}
+
+body{
+   font-size: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url(imagens/background.svg);
+   background-color: #ffffff10;
+   animation:
+      pan 6s infinite alternate linear;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7px;
+}
+
+.logo {
+    height: 70px;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #faebd7;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menu-item {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;;
+    color: #faebd7;
+}
+
+/*--------------------------------------------------------------------------------------- FIM DO CABEÇALHO ---------------------------------------------------------------------------------------*/
+
+.conteudo {
+    margin-bottom: 48px;
+}
+
+.titulo-planos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 60px;
+    font-family: 'Secular One', sans-serif;
+    color:	#FFFAFA
+}
+
+.planos {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 30px;
+
+}
+
+.mentoria-avançada {
+    background-color: #fff;
+    height: 640px;
+    width: 350px;
+    border-radius: 20px;  
+}
+
+.mentoria-avançada:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+}
+
+.box-titulo {
+    background: rgb(249,182,36);
+    background: linear-gradient(90deg, rgba(249,182,36,1) 0%, rgba(255,213,121,1) 100%);
+    border-radius: 60px;
+}
+
+.titulo-avançada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 4px;
+    padding-top: 5px;
+}
+
+.avançada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.beneficios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primeiro-bene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    background: rgb(249,182,36);
+    background: linear-gradient(90deg, rgba(249,182,36,1) 0%, rgba(255,213,121,1) 100%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.icon {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.escrita {
+    font-family: 'Roboto Slab', serif;
+}
+
+.segundo-bene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background: rgb(249,182,36);
+    background: linear-gradient(90deg, rgba(249,182,36,1) 0%, rgba(255,213,121,1) 100%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.lupa {
+    width: 25px;
+}
+
+.escrita2{
+    font-family: 'Roboto Slab', serif;
+}
+
+.terceiro-bene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background: rgb(249,182,36);
+    background: linear-gradient(90deg, rgba(249,182,36,1) 0%, rgba(255,213,121,1) 100%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.grafico-pizza {
+    width: 25px;
+}
+
+.escrita3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.quarto-bene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background: rgb(249,182,36);
+    background: linear-gradient(90deg, rgba(249,182,36,1) 0%, rgba(255,213,121,1) 100%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.grafico {
+    width: 25px;
+}
+
+.escrita4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.valores-avançada {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.valor-riscado-avançada {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #808080;
+}
+
+.valor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.valor-mes {
+    color: #FF0000;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rs {
+    color: #FF0000;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.mes {
+    color: #FF0000;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+}
+
+.pag-anual-avançada {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #808080;
+}
+
+
+.botao-avançada {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-avançada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFAFA;
+    border-radius: 25px;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+
+.btn-avançada:hover {
+    color:  rgb(249,182,36);
+    background: linear-gradient(90deg, rgba(249,182,36,1) 0%, rgba(255,213,121,1) 100%);
+}
+
+/*--------------------------------------------------------------------------------------- FIM DO PRIMEIRO CARD ---------------------------------------------------------------------------------------*/
+
+.mentoria-essencial {
+    background-color: #fff;
+    height: 640px;
+    width: 350px;
+    border-radius: 20px;   
+}
+
+.mentoria-essencial:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+}
+
+.box-titulo-essencial {
+    background: rgb(83,128,255);
+    background: linear-gradient(90deg, rgba(83,128,255,1) 0%, rgba(127,169,255,1) 100%);
+    border-radius: 60px;
+}
+
+.titulo-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 4px;
+    padding-top: 5px;
+}
+
+.essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.beneficios-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primeiro-bene-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    background: rgb(83,128,255);
+    background: linear-gradient(90deg, rgba(83,128,255,1) 0%, rgba(127,169,255,1) 100%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.icon {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.escrita-essencial {
+    font-family: 'Roboto Slab', serif;
+}
+
+.segundo-bene-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background: rgb(83,128,255);
+    background: linear-gradient(90deg, rgba(83,128,255,1) 0%, rgba(127,169,255,1) 100%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.lupa {
+    width: 25px;
+}
+
+.escrita2-essencial {
+    font-family: 'Roboto Slab', serif;
+}
+
+.terceiro-bene-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.x-essencial {
+    width: 25px;
+}
+
+.escrita3-essencial {
+    font-family: 'Roboto Slab', serif;
+}
+
+.quarto-bene-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.x-essencial {
+    width: 25px;
+}
+
+.escrita4-essencial {
+    font-family: 'Roboto Slab', serif;
+}
+
+.valores-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.valor-riscado-essencial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #808080;
+}
+
+.valor-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.rs-essencial {
+    color: #FF0000;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.valor-mes-essencial {
+    color: #FF0000;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mes-essencial {
+    color: #FF0000;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+}
+
+.pag-anual-avançada {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.botao-essencial {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-essencial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFAFA;
+    border-radius: 25px;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+
+}
+
+.btn-essencial:hover {
+    color:  rgb(83,128,255);
+    background: linear-gradient(90deg, rgba(83,128,255,1) 0%, rgba(127,169,255,1) 100%);
+}
+
+/*--------------------------------------------------------------------------------------- FIM DO SEGUNDO CARD ---------------------------------------------------------------------------------------*/
+
+.mentoria-basica {
+    background-color: #fff;
+    height: 640px;
+    width: 350px;
+    border-radius: 20px;  
+}
+
+.mentoria-basica:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+}
+
+.box-titulo-basica {
+    background: rgb(255,82,170);
+    background: radial-gradient(circle, rgba(255,82,170,1) 0%, rgba(255,166,191,1) 100%);
+    border-radius: 60px;
+}
+
+.titulo-basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 4px;
+    padding-top: 5px;
+}
+
+.basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.beneficios-basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primeiro-bene-basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    background: rgb(255,82,170);
+    background: radial-gradient(circle, rgba(255,82,170,1) 0%, rgba(255,166,191,1) 100%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.icon {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.escrita-basica {
+    font-family: 'Roboto Slab', serif;
+}
+
+.segundo-bene-basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.x-basica {
+    width: 25px;
+}
+
+.escrita2-basica {
+    font-family: 'Roboto Slab', serif;
+}
+
+.terceiro-bene-basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.x-basica {
+    width: 25px;
+}
+
+.escrita3-basica {
+    font-family: 'Roboto Slab', serif;
+}
+
+.quarto-bene-basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.x-basica {
+    width: 25px;
+}
+
+.escrita4-basica {
+    font-family: 'Roboto Slab', serif;
+}
+
+.valores-basica {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.valor-riscado-basica {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #808080;
+}
+
+.valor-basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.rs-basica {
+    color: #FF0000;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.valor-mes-basica {
+    color: #FF0000;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mes-basica {
+    color: #FF0000;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+}
+
+.pag-anual-basica {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.botao-basica {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-basica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFAFA;
+    border-radius: 25px;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+
+.btn-basica:hover {
+    color:  rgb(255,82,170);
+    background: radial-gradient(circle, rgba(255,82,170,1) 0%, rgba(255,166,191,1) 100%);
+}
+
+/*--------------------------------------------------------------------------------------- FIM DO TERCEIRO CARD ---------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .cabeçalho {
+       display: flex;
+       align-items: center;
+       padding: 0px;
+    }
+
+    .logo {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: nowrap;
+}
+    
+    .menu-item {
+        font-size: 15px;
+        margin-left: 20px;
+        padding-bottom: 15px;
+}
+
+    /*--------------------------------------------------------------------------------------- FIM DO CABEÇALHO ---------------------------------------------------------------------------------------*/
+
+    .planos {
+        flex-wrap: wrap;
+        gap: 30px;
+        box-sizing: border-box
+}
+    
+    .titulo-planos {
+        font-size: 16px;
+}
+
+    .mentoria-avançada {
+        height: 400px;
+        width: 230px;
+}
+
+    .titulo-avançada {
+        font-size: 20px;
+}
+
+    .avançada {
+        font-size: 20px;
+}
+
+    .primeiro-bene {
+        margin-top: 18px;
+        padding: 10px;
+}
+
+    .icon {
+        width: 18px;
+}
+
+
+    .escrita {
+        font-size: 12px;
+}
+
+    .segundo-bene {
+        margin-top: 5px;
+        padding: 10px;
+}
+
+    .lupa {
+        width: 18px;
+}
+
+    .escrita2 {
+        font-size: 12px;
+}
+
+    .terceiro-bene {
+        margin-top: 5px;
+        padding: 14px;
+}
+
+    .grafico-pizza {
+        width: 18px;
+}
+
+    .escrita3 {
+        font-size: 12px;
+}
+
+    .quarto-bene {
+        margin-top: 5px;
+        padding: 10px;
+}
+
+    .grafico {
+        width: 18px;
+}
+
+    .escrita4 {
+        font-size: 12px;
+}
+
+    .valores-avançada {
+        margin-top: 1px;
+        gap: 13px;
+        padding-bottom: 1px;
+        border-bottom: 1px solid #f5f5f5;
+}
+
+    .valor-riscado-avançada {
+        font-size: 12px;
+}
+
+    .valor {
+        margin-top: 20px;
+}
+
+    .valor-mes {
+        font-size: 30px;
+        margin-top: 1px;
+}
+
+    .rs {
+        padding-bottom: 10px;
+        font-size: 15px;
+}
+
+    .mes {
+        padding-top: 10px;
+        font-size: 15px;
+}
+
+    .pag-anual-avançada {
+        padding-top: 10px;
+        font-size: 12px;
+}
+
+
+    .botao-avançada {
+        margin-top: 15px;
+}
+
+    .btn-avançada {
+        border-radius: 25px;
+        font-size: 25px;
+        height: 40px;
+        width: 150px;
+}
+
+/*--------------------------------------------------------------------------------------- FIM DO PRIMEIRO CARD ---------------------------------------------------------------------------------------*/
+
+    .mentoria-essencial {
+        height: 400px;
+        width: 230px;
+}
+
+
+    .titulo-essencial {
+        font-size: 20px;
+}
+
+    .essencial {
+        font-size: 20px;
+}
+
+    .primeiro-bene-essencial {
+        margin-top: 18px;
+        padding: 10px;
+}
+
+    .icon {
+        width: 18px;
+}
+
+
+    .escrita-essencial {
+        font-size: 12px;
+}
+
+    .segundo-bene-essencial {
+        margin-top: 5px;
+        padding: 10px;
+}
+
+    .lupa-essencial {
+        width: 18px;
+}
+
+    .escrita2-essencial {
+        font-size: 12px;
+}
+
+    .terceiro-bene-essencial {
+        margin-top: 5px;
+        padding: 14px;
+}
+
+    .x-essencial {
+        width: 18px;
+}
+
+    .escrita3-essencial {
+        font-size: 12px;
+}
+
+    .quarto-bene-essencial {
+        margin-top: 5px;
+        padding: 10px;
+}
+
+    .x-essencial {
+        width: 18px;
+}
+
+    .escrita4-essencial {
+        font-size: 12px;
+}
+
+    .valores-essencial {
+        margin-top: 1px;
+        gap: 13px;
+        padding-bottom: 1px;
+        border-bottom: 1px solid #f5f5f5;
+}
+
+    .valor-riscado-essencial {
+        font-size: 12px;
+}
+
+    .valor-essencial {
+        margin-top: 20px;
+}
+
+    .valor-mes-essencial {
+        font-size: 30px;
+        margin-top: 1px;
+}
+
+    .rs-essencial {
+        padding-bottom: 10px;
+        font-size: 15px;
+}
+
+    .mes-essencial {
+        padding-top: 10px;
+        font-size: 15px;
+}
+
+    .pag-anual-essencial {
+        padding-top: 10px;
+        font-size: 12px;
+}
+
+
+    .botao-essencial {
+        margin-top: 15px;
+}
+
+    .btn-essencial {
+        border-radius: 25px;
+        font-size: 25px;
+        height: 40px;
+        width: 150px;
+}
+
+/*--------------------------------------------------------------------------------------- FIM DO SEGUNDO CARD ---------------------------------------------------------------------------------------*/
+
+.mentoria-basica {
+    height: 400px;
+    width: 230px;
+}
+
+
+.titulo-basica {
+    font-size: 20px;
+}
+
+.basica {
+    font-size: 20px;
+}
+
+.primeiro-bene-basica {
+    margin-top: 18px;
+    padding: 10px;
+}
+
+.icon {
+    width: 18px;
+}
+
+
+.escrita-basica {
+    font-size: 12px;
+}
+
+.segundo-bene-basica {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.x-basica {
+    width: 18px;
+}
+
+.escrita2-basica {
+    font-size: 12px;
+}
+
+.terceiro-bene-basica {
+    margin-top: 5px;
+    padding: 14px;
+}
+
+.x-basica {
+    width: 18px;
+}
+
+.escrita3-basica {
+    font-size: 12px;
+}
+
+.quarto-bene-basica {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.x-basica {
+    width: 18px;
+}
+
+.escrita4-basica {
+    font-size: 12px;
+}
+
+.valores-basica {
+    margin-top: 1px;
+    gap: 13px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.valor-riscado-basica {
+    font-size: 12px;
+}
+
+.valor-basica {
+    margin-top: 20px;
+}
+
+.valor-mes-basica {
+    font-size: 30px;
+    margin-top: 1px;
+}
+
+.rs-basica {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.mes-basica {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.pag-anual-basica {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.botao-basica {
+    margin-top: 15px;
+}
+
+.btn-basica {
+    border-radius: 25px;
+    font-size: 25px;
+    height: 40px;
+    width: 150px;
+}
+
+/*--------------------------------------------------------------------------------------- FIM DO TERCEIRO CARD ---------------------------------------------------------------------------------------*/
+
+}
