@@ -15,8 +15,7 @@ body{
    font-size: 100%;
    background-size: cover;
    background-repeat: no-repeat;
-   background-image: url(imagens/background.svg);
-   background-color: #ffffff10;
+   background-image: url(images/background.svg);
    animation:
       pan 6s infinite alternate linear;
 }
